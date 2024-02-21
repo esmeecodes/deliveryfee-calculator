@@ -61,7 +61,7 @@ const CalculatorForm = () => {
           name="dateAndTime"
           data-test-id="dateAndTime"
         />
-        <button type="submit">Calculate the fee</button>
+        <button type="submit">Calculate fee</button>
       </form>
       {formIsSubmitted && <p className="fee">The fee is € {fee}</p>}
     </div>
